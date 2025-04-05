@@ -8,7 +8,15 @@ class Dialogbox{
         
         JFrame frame = new JFrame("my first notepad");
 
-        Arra
+        JLabel label = new JLabel("note pad ");
+
+        frame.add(label);
+
+        frame.setSize(300,200);
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame.setVisible(true);
         
     }
 }
